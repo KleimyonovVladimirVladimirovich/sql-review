@@ -1,12 +1,12 @@
---UPDATE
-UPDATE "user"
-  SET role_id = 1
-    WHERE id = 10;
+-- --UPDATE
+-- UPDATE "user"
+--   SET role_id = 1
+--     WHERE id = 10;
 
---UPDATE
-UPDATE "user"
-   SET password = 'superQWERTYpass'
-     WHERE id = 1;
+-- --UPDATE
+-- UPDATE "user"
+--    SET password = 'superQWERTYpass'
+--      WHERE id = 1;
 
 --DELETE -> checked that can't delete order, before that I need to delete order-items
 DELETE FROM order_items -- 1-st Step
